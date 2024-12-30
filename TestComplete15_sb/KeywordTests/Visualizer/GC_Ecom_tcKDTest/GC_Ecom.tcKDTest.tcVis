@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{D62115BE-C38B-45A8-8198-F957EB70C179}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="1" kind="0" dateTime="45632.6674074074" objectName="Aliases.browser.BrowserWindow.Chrome_RenderWidgetHostHWND" objectLeft="0" objectTop="121" objectRight="1920" objectBottom="1032" clickPointX="638" clickPointY="479" imageFileName="tcvi833179812378961.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="3" kind="0" dateTime="45632.6674768519" objectName="Aliases.browser.pageBearstoreTestsiteSmartbearCo.linkShowProductsInCategoryGift" objectLeft="1351" objectTop="702" objectRight="1491" objectBottom="842" clickPointX="1360" clickPointY="835" imageFileName="tcvi833186296378963.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="5" kind="0" dateTime="45632.6675231481" objectName="Aliases.browser.pageShop3.sectionContent.article100VirtualGiftCard.linkShowDetailsFor100Virtual.imageShowDetailsFor100Virtual" objectLeft="1312" objectTop="587" objectRight="1486" objectBottom="697" clickPointX="1355" clickPointY="680" imageFileName="tcvi833190312378967.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>
