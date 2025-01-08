@@ -9,71 +9,16 @@
 	<config language="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}" />
 	<testItems key="{BE6CEFB8-58C6-4207-9B92-8F5838A75010}" version="14">
 		<children>
+			<testItem name="Login" key="{180BA64A-653C-4668-BFA0-F7E23EA3F107}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{E18BD929-F065-4D9A-A720-4852CEC4B6FD}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
+				<testParameters />
+				<environments activeCloud="SWT" />
+				<children />
+			</testItem>
 			<testItem name="Contact_Us" key="{35A119CC-C92C-4C58-A266-83B2948060B3}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{9E0ADB31-7DAF-4294-90DB-63F482E98BC7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
 				<testParameters />
 				<environments activeCloud="SWT">
 					<cloud name="SWT" testedURL="https://bearstore-testsite.smartbear.com/">
 						<CapabilityItem Server="https://us-west-desktop-hub.bitbar.com/wd/hub" JSON="{&quot;platform&quot;:&quot;macOS&quot;,&quot;osVersion&quot;:&quot;13&quot;,&quot;browserName&quot;:&quot;Safari&quot;,&quot;version&quot;:&quot;18&quot;,&quot;resolution&quot;:&quot;2560x1920&quot;}" Platform="Desktop" OS="macOS 13" Browser="Safari 18" Resolution="2560x1920" CustomCapabilitiesInfo="" />
-					</cloud>
-				</environments>
-				<children />
-			</testItem>
-			<testItem name="Login" key="{1A71B947-D132-4AAC-9C4E-ACC8FFCC9083}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{E18BD929-F065-4D9A-A720-4852CEC4B6FD}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
-				<testParameters />
-				<environments activeCloud="SWT">
-					<cloud name="SWT" testedURL="https://bearstore-testsite.smartbear.com/">
-						<CapabilityItem Server="https://us-west-desktop-hub.bitbar.com/wd/hub" JSON="{&quot;platform&quot;:&quot;macOS&quot;,&quot;osVersion&quot;:&quot;12&quot;,&quot;browserName&quot;:&quot;Safari&quot;,&quot;version&quot;:&quot;17&quot;,&quot;resolution&quot;:&quot;2560x1920&quot;}" Platform="Desktop" OS="macOS 12" Browser="Safari 17" Resolution="2560x1920" CustomCapabilitiesInfo="" />
-						<CapabilityItem Server="https://us-west-desktop-hub.bitbar.com/wd/hub" JSON="{&quot;platform&quot;:&quot;macOS&quot;,&quot;osVersion&quot;:&quot;13&quot;,&quot;browserName&quot;:&quot;Firefox&quot;,&quot;version&quot;:&quot;128&quot;,&quot;resolution&quot;:&quot;2560x1920&quot;}" Platform="Desktop" OS="macOS 13" Browser="Firefox 128" Resolution="2560x1920" CustomCapabilitiesInfo="" />
-						<CapabilityItem Server="https://us-west-mobile-hub.bitbar.com/wd/hub" JSON="{&quot;bitbar:device&quot;:&quot;Apple iPad 10.2\&quot; 9th A2602 15.1 -US&quot;,&quot;deviceName&quot;:&quot;Apple iPad 10.2\&quot; 9th A2602 15.1 -US&quot;,&quot;platformName&quot;:&quot;iOS&quot;,&quot;bitbar:findDevice&quot;:&quot;false&quot;,&quot;automationName&quot;:&quot;XCUITest&quot;,&quot;browserName&quot;:&quot;Safari&quot;}" Platform="Mobile" OS="Apple iPad 10.2&quot; 9th A2602 15.1 -US" Browser="Safari" Resolution="1620 x 2160" CustomCapabilitiesInfo="" />
-						<CapabilityItem Server="https://us-west-mobile-hub.bitbar.com/wd/hub" JSON="{&quot;bitbar:device&quot;:&quot;Samsung Galaxy S22 Android 12 -US&quot;,&quot;deviceName&quot;:&quot;Samsung Galaxy S22 Android 12 -US&quot;,&quot;platformName&quot;:&quot;Android&quot;,&quot;bitbar:findDevice&quot;:&quot;false&quot;,&quot;automationName&quot;:&quot;UiAutomator2&quot;,&quot;browserName&quot;:&quot;Chrome&quot;}" Platform="Mobile" OS="Samsung Galaxy S22 Android 12 -US" Browser="Chrome" Resolution="1080 x 2340" CustomCapabilitiesInfo="" />
-					</cloud>
-				</environments>
-				<children />
-			</testItem>
-			<testItem name="Login_VT" key="{AE42E7E4-8B53-46CA-B5E6-B62E32977B34}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{C8108870-3CE6-4ACB-A61F-BAF9BD430143}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
-				<testParameters />
-				<environments activeCloud="SWT" />
-				<children />
-			</testItem>
-			<testItem name="Orders_app_mobile" key="{55DD1B2B-DA16-4379-8B9E-06BF8AC79140}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{1745132E-1DBE-442A-B6B2-A16D7740D60E}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
-				<testParameters />
-				<environments activeCloud="BitBar">
-					<cloud name="BitBar">
-						<capabilities Enabled="True" AdvancedMode="True" Device="Samsung Galaxy S22 Android 12 -US" Application="Orders.apk (id: 240343817)" JSON="{&quot;platformName&quot;:&quot;ANDROID&quot;,&quot;bitbar:target&quot;:&quot;android&quot;,&quot;bitbar:findDevice&quot;:false,&quot;bitbar:device&quot;:&quot;Samsung Galaxy S22 Android 12 -US&quot;,&quot;deviceName&quot;:&quot;Samsung Galaxy S22 Android 12 -US&quot;,&quot;automationName&quot;:&quot;UiAutomator2&quot;,&quot;bitbar:app&quot;:&quot;240343817&quot;}" HubUrl="https://us-west-mobile-hub.bitbar.com/wd/hub" CustomJSON="" OSName="ANDROID" />
-						<capabilities Enabled="True" AdvancedMode="True" Device="Google Pixel 6 Pro 5G Android 12 -US" Application="Orders.apk (id: 240343817)" JSON="{&quot;platformName&quot;:&quot;ANDROID&quot;,&quot;bitbar:target&quot;:&quot;android&quot;,&quot;bitbar:findDevice&quot;:false,&quot;bitbar:device&quot;:&quot;Google Pixel 6 Pro 5G Android 12 -US&quot;,&quot;deviceName&quot;:&quot;Google Pixel 6 Pro 5G Android 12 -US&quot;,&quot;automationName&quot;:&quot;UiAutomator2&quot;,&quot;bitbar:app&quot;:&quot;240343817&quot;}" HubUrl="https://us-west-mobile-hub.bitbar.com/wd/hub" CustomJSON="" OSName="ANDROID" />
-						<capabilities Enabled="True" AdvancedMode="True" Device="Samsung Galaxy S22 Ultra&#32;&#32;Android 12 -US" Application="Orders.apk (id: 240343817)" JSON="{&quot;platformName&quot;:&quot;ANDROID&quot;,&quot;bitbar:target&quot;:&quot;android&quot;,&quot;bitbar:findDevice&quot;:false,&quot;bitbar:device&quot;:&quot;Samsung Galaxy S22 Ultra&#32;&#32;Android 12 -US&quot;,&quot;deviceName&quot;:&quot;Samsung Galaxy S22 Ultra&#32;&#32;Android 12 -US&quot;,&quot;automationName&quot;:&quot;UiAutomator2&quot;,&quot;bitbar:app&quot;:&quot;240343817&quot;}" HubUrl="https://us-west-mobile-hub.bitbar.com/wd/hub" CustomJSON="" OSName="ANDROID" />
-					</cloud>
-				</environments>
-				<children />
-			</testItem>
-			<testItem name="Mobile_app" key="{6BE27B1D-66F6-4D22-90DA-1F21A71A835C}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{82ADE415-7C68-4D8A-8843-F424B54D3412}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
-				<testParameters />
-				<environments activeCloud="BitBar">
-					<cloud name="BitBar">
-						<capabilities Enabled="True" AdvancedMode="True" Device="Apple iPhone 12 A2172 14.2.1 -US EAST" Application="Orders.ipa (id: 240343875)" JSON="{&quot;platformName&quot;:&quot;IOS&quot;,&quot;bitbar:target&quot;:&quot;ios&quot;,&quot;bitbar:findDevice&quot;:false,&quot;bitbar:device&quot;:&quot;Apple iPhone 12 A2172 14.2.1 -US EAST&quot;,&quot;deviceName&quot;:&quot;Apple iPhone 12 A2172 14.2.1 -US EAST&quot;,&quot;automationName&quot;:&quot;XCUITest&quot;,&quot;bitbar:app&quot;:&quot;240343875&quot;}" HubUrl="https://us-east-mobile-hub.bitbar.com/wd/hub" CustomJSON="" OSName="IOS" />
-						<capabilities Enabled="True" AdvancedMode="True" Device="Apple iPhone 13 Mini A2481 15.3 -US" Application="Orders.ipa (id: 240343875)" JSON="{&quot;platformName&quot;:&quot;IOS&quot;,&quot;bitbar:target&quot;:&quot;ios&quot;,&quot;bitbar:findDevice&quot;:false,&quot;bitbar:device&quot;:&quot;Apple iPhone 13 Mini A2481 15.3 -US&quot;,&quot;deviceName&quot;:&quot;Apple iPhone 13 Mini A2481 15.3 -US&quot;,&quot;automationName&quot;:&quot;XCUITest&quot;,&quot;bitbar:app&quot;:&quot;240343875&quot;}" HubUrl="https://us-west-mobile-hub.bitbar.com/wd/hub" CustomJSON="" OSName="IOS" />
-						<capabilities Enabled="True" AdvancedMode="True" Device="Apple iPad 10.2&quot; 9th A2602 15.2" Application="Orders.ipa (id: 240343875)" JSON="{&quot;platformName&quot;:&quot;IOS&quot;,&quot;bitbar:target&quot;:&quot;ios&quot;,&quot;bitbar:findDevice&quot;:false,&quot;bitbar:device&quot;:&quot;Apple iPad 10.2\&quot; 9th A2602 15.2&quot;,&quot;deviceName&quot;:&quot;Apple iPad 10.2\&quot; 9th A2602 15.2&quot;,&quot;automationName&quot;:&quot;XCUITest&quot;,&quot;bitbar:app&quot;:&quot;240343875&quot;}" HubUrl="https://eu-mobile-hub.bitbar.com/wd/hub" CustomJSON="" OSName="IOS" />
-					</cloud>
-				</environments>
-				<children />
-			</testItem>
-			<testItem name="SmartBank_Checking_form" key="{4EE0D7C0-F379-4818-B78A-01F3025D0A7F}" group="False" parallel="False" enabled="True" load="False" testMoniker="{D2A60AA3-9978-4720-BC09-03C4B2584E58}SmartBank_Checking_form" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
-				<testParameters />
-				<environments activeCloud="BitBar" />
-				<children />
-			</testItem>
-			<testItem name="Login_VT_2" key="{CDD2AACD-341A-4DF7-9884-3FA1A75D097D}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{C8108870-3CE6-4ACB-A61F-BAF9BD430143}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
-				<testParameters />
-				<environments activeCloud="CBT" />
-				<children />
-			</testItem>
-			<testItem name="Mobile_app_2" key="{A7F4187E-5AD8-44D1-AF58-CE7747FA8CD9}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{82ADE415-7C68-4D8A-8843-F424B54D3412}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
-				<testParameters />
-				<environments activeCloud="BitBar">
-					<cloud name="BitBar">
-						<capabilities Enabled="True" AdvancedMode="True" Device="Google Pixel 9" Application="Orders.apk (id: 240343817)" JSON="{&quot;platformName&quot;:&quot;ANDROID&quot;,&quot;bitbar:target&quot;:&quot;android&quot;,&quot;bitbar:findDevice&quot;:false,&quot;bitbar:device&quot;:&quot;Google Pixel 9&quot;,&quot;deviceName&quot;:&quot;Google Pixel 9&quot;,&quot;automationName&quot;:&quot;UiAutomator2&quot;,&quot;bitbar:app&quot;:&quot;240343817&quot;}" HubUrl="https://eu-mobile-hub.bitbar.com/wd/hub" CustomJSON="" OSName="ANDROID" />
-						<capabilities Enabled="True" AdvancedMode="True" Device="Samsung Galaxy S22 Android 12 -US" Application="Orders.apk (id: 240343817)" JSON="{&quot;platformName&quot;:&quot;ANDROID&quot;,&quot;bitbar:target&quot;:&quot;android&quot;,&quot;bitbar:findDevice&quot;:false,&quot;bitbar:device&quot;:&quot;Samsung Galaxy S22 Android 12 -US&quot;,&quot;deviceName&quot;:&quot;Samsung Galaxy S22 Android 12 -US&quot;,&quot;automationName&quot;:&quot;UiAutomator2&quot;,&quot;bitbar:app&quot;:&quot;240343817&quot;}" HubUrl="https://us-west-mobile-hub.bitbar.com/wd/hub" CustomJSON="" OSName="ANDROID" />
-						<capabilities Enabled="True" AdvancedMode="True" Device="Google Pixel 7" Application="Orders.apk (id: 240343817)" JSON="{&quot;platformName&quot;:&quot;ANDROID&quot;,&quot;bitbar:target&quot;:&quot;android&quot;,&quot;bitbar:findDevice&quot;:false,&quot;bitbar:device&quot;:&quot;Google Pixel 7&quot;,&quot;deviceName&quot;:&quot;Google Pixel 7&quot;,&quot;automationName&quot;:&quot;UiAutomator2&quot;,&quot;bitbar:app&quot;:&quot;240343817&quot;}" HubUrl="https://eu-mobile-hub.bitbar.com/wd/hub" CustomJSON="" OSName="ANDROID" />
 					</cloud>
 				</environments>
 				<children />
@@ -95,7 +40,7 @@
 		</data>
 	</variables>
 	<settings key="{79F4F71A-3352-47C0-90BE-E51A96924111}">
-		<settingsVersion value="15.69" />
+		<settingsVersion value="15.71" />
 		<setting name="AgOpenApp_ExtendedSilverlightObjectTree" type="1" value="False" />
 		<setting name="ApplicationHangingProcessFilterMode" type="6" rowIndex="4" colIndex="0">
 			<columns>
