@@ -14,6 +14,31 @@
 				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
+			<testItem name="Drag_Drop" key="{531A937C-DA37-4F09-9123-EB8C16C0E50F}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{8AEB9149-3A8A-4172-BAB2-4E5D45559F33}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
+				<testParameters />
+				<environments activeCloud="SWT" />
+				<children />
+			</testItem>
+			<testItem name="SmartStore_product" key="{77B69A16-6DD7-4DAE-B88E-A3AF36228BDA}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{51837160-A466-4799-BCB9-DCEF83C0A855}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
+				<testParameters>
+					<param0 name="Query" type="1" localVarName="" value="Glass Table" />
+					<param1 name="Price" type="1" localVarName="" value="$1,629.00 excl tax" />
+				</testParameters>
+				<environments activeCloud="SWT" />
+				<children>
+					<testItem name="Login_2" key="{BFD248F7-4788-4B1A-990F-CB4BB8662C26}" group="False" parallel="False" enabled="True" load="False" testMoniker="{D335EEB1-EA7D-48AF-9FC0-D377F0880460}Login" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
+						<testParameters />
+						<environments activeCloud="SWT" />
+						<children>
+							<testItem name="DD_Loop_contactus" key="{1AE15F3D-F769-4DFB-AF89-69986A7127EC}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{9EA8121F-A777-4319-AEE7-3D7F261D1F4F}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
+								<testParameters />
+								<environments activeCloud="SWT" />
+								<children />
+							</testItem>
+						</children>
+					</testItem>
+				</children>
+			</testItem>
 			<testItem name="Contact_Us" key="{35A119CC-C92C-4C58-A266-83B2948060B3}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{9E0ADB31-7DAF-4294-90DB-63F482E98BC7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
 				<testParameters />
 				<environments activeCloud="SWT">
@@ -579,7 +604,7 @@
 				<row val0="Stop and rerun current item" val1="4" />
 			</data>
 		</setting>
-		<setting name="Playback_ErrHandling_OnObjectRecognitionError" type="6" rowIndex="0" colIndex="1">
+		<setting name="Playback_ErrHandling_OnObjectRecognitionError" type="6" rowIndex="2" colIndex="1">
 			<columns>
 				<column type="5" enabled="True" />
 				<column type="2" enabled="True" />
@@ -622,7 +647,7 @@
 		<setting name="Playback_Runtime_MinimizeBeforePlayback" type="1" value="False" />
 		<setting name="Playback_Runtime_UseCaseSensitiveParameters" type="1" value="False" />
 		<setting name="Playback_StopOnError" type="1" value="True" />
-		<setting name="Playback_StopOnObjectRecognitionError" type="1" value="False" />
+		<setting name="Playback_StopOnObjectRecognitionError" type="1" value="True" />
 		<setting name="Playback_StopOnWarning" type="1" value="False" />
 		<setting name="Playback_TestItemMaxReRunCount" type="2" value="1" />
 		<setting name="Playback_UnexpectedWndHandling_ClickOnFocusedControl" type="1" value="True" />

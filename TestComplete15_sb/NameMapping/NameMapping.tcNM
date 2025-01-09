@@ -3102,6 +3102,24 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="linkWatches" Key="{7690A65B-EBB5-4FDF-B8AA-830B00C8B735}">
+										<Image FileName="-500111907" Left="752" Top="251" Right="832" Bottom="299" />
+										<TypeInfo Item0="{F5BD2E1C-6CA5-426C-89BF-D0ED011466F0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(., &apos;Watches&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[5]/a[contains(@class, &apos;nav-link&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[@id=&apos;header&apos;]//li[5]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[5]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="pageJackets" Key="{70C71C19-EBA6-43D6-89E8-CAEA361C9077}">
@@ -5754,6 +5772,268 @@
 									</Child>
 								</Children>
 							</Child>
+							<Child Name="pageShopSearchResultForChronogra" Key="{3BFE63A5-61FA-4781-BBC1-4C0561D654E4}">
+								<Image FileName="1138888507" Left="8" Top="129" Right="1928" Bottom="1040" />
+								<TypeInfo Item0="{F61D9232-6AD6-45D9-9CD0-689CC9EFBB45}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://bearstore-testsite.smartbear.com/search*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="asideOffcanvasCart" Key="{D13C329B-E093-409D-A69F-CF8AABB8F173}">
+										<Image FileName="1138888507" Left="1448" Top="129" Right="1928" Bottom="1040" />
+										<TypeInfo Item0="{674FDB3D-25D3-418B-B73C-04CC4DFEE673}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#offcanvas-cart" />
+											</Selector>
+											<Selector>
+												<Value Value="aside[contains(., &apos;Shopping Cart&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="aside[contains(@class, &apos;offcanvas-lg&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode2411000ExclTax" Key="{84344851-12B5-49F7-AE2E-4003A87B8E7F}">
+										<Image FileName="1138888507" Left="1568" Top="391" Right="1735" Bottom="418" />
+										<TypeInfo Item0="{674FDB3D-25D3-418B-B73C-04CC4DFEE673}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//aside//span[contains(@class, &apos;price&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;occ-cart&apos;]//div[2]/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//aside//div[2]//div[2]//div[2]/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="sectionContent" Key="{10F13BAC-81E8-46B3-A559-DA4302A91247}">
+										<Image FileName="1301506110" Left="390" Top="332" Right="1530" Bottom="1296" />
+										<TypeInfo Item0="{674FDB3D-25D3-418B-B73C-04CC4DFEE673}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#content" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(., &apos;Category&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(@class, &apos;container&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;content-wrapper&apos;]/section" />
+											</Selector>
+											<Selector>
+												<Value Value="//section" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageWatches" Key="{4C249719-D096-4A83-A578-081569E33FF0}">
+								<TypeInfo Item0="{ABD23111-3E36-4CDA-A7FD-E20EE06EAECE}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://bearstore-testsite.smartbear.com/watches" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="sectionContent" Key="{8E18EBDB-6A9F-4E35-9820-EA1FADFC51B3}">
+										<Image FileName="-1556407063" Left="382" Top="324" Right="1522" Bottom="1412" />
+										<Selectors>
+											<Selector>
+												<Value Value="#content" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(., &apos;Watches&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(@class, &apos;container&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;content-wrapper&apos;]/section" />
+											</Selector>
+											<Selector>
+												<Value Value="//section" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkShowDetailsForCertinaDs" Key="{DABED3FD-770E-499B-A8F6-F337F9E78990}">
+										<Image FileName="-1182293483" Left="1312" Top="554" Right="1486" Bottom="728" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[@title=&apos;Show details for Certina DS Podium Big Size&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div//article[4]//a[contains(@class, &apos;art-picture&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;content-center&apos;]//div[2]/article[4]//a" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;content-body&apos;]/div[@id=&apos;content-center&apos;]//div[2]/article[4]//a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="imageShowDetailsForCertinaDs" Key="{D5A6B3AD-A585-40AF-BFA9-CD9C10E96352}">
+										<Image FileName="-1182293483" Left="1352" Top="554" Right="1446" Bottom="728" />
+										<TypeInfo Item0="{F5BD2E1C-6CA5-426C-89BF-D0ED011466F0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//img[@title=&apos;Show details for Certina DS Podium Big Size&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@href, &apos;certina-ds-podium-big-size&apos;)]/img" />
+											</Selector>
+											<Selector>
+												<Value Value="//div//article[4]//a/img" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageCertinaDsPodiumBigSize" Key="{757074F6-54DC-4A41-BB3E-F848F3B3721C}">
+								<Image FileName="-102865850" Left="0" Top="121" Right="1920" Bottom="1032" />
+								<TypeInfo Item0="{ABD23111-3E36-4CDA-A7FD-E20EE06EAECE}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://bearstore-testsite.smartbear.com/certina-ds-podium-big-size" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="sectionContent" Key="{D14B164A-9E49-42F5-895C-649B18DEEBD1}">
+										<Image FileName="-644258080" Left="382" Top="324" Right="1522" Bottom="2354" />
+										<Selectors>
+											<Selector>
+												<Value Value="#content" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(., &apos;Watches&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(@class, &apos;container&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;content-wrapper&apos;]/section" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="articleCertinaDsPodiumBigSize" Key="{D176522A-7821-41AF-8F0E-E8F19C173570}">
+										<Image FileName="-644258080" Left="397" Top="375" Right="1507" Bottom="1945" />
+										<Selectors>
+											<Selector>
+												<Value Value="//article[contains(., &apos;Certina DS Podium Big Size&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//article[contains(@class, &apos;pd&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="asideCertinaDsPodiumBigSize" Key="{0C5ADCC3-7333-4168-89BC-667D4747EB45}">
+										<Image FileName="-644258080" Left="1046" Top="375" Right="1521" Bottom="1030" />
+										<Selectors>
+											<Selector>
+												<Value Value="//aside[contains(., &apos;Certina DS Podium Big Size&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//aside[contains(@class, &apos;col-12&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@id=&apos;pd-form&apos;]//aside" />
+											</Selector>
+											<Selector>
+												<Value Value="//section/aside" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkAddToCart" Key="{E41F56C3-B89A-4F81-9FAD-3B2F503E33C5}">
+										<Image FileName="-644258080" Left="1196" Top="638" Right="1491" Bottom="689" />
+										<TypeInfo Item0="{F5BD2E1C-6CA5-426C-89BF-D0ED011466F0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(., &apos;Add to cart&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;main-update-container&apos;]/form/section/aside//a[contains(@class, &apos;btn&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@id=&apos;pd-form&apos;]//section/aside/div[4]/div[3]//a" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/section/aside/div[4]/div[3]//a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="asideOffcanvasCart" Key="{E471D899-2BD5-4970-9A7E-31B19FA4C1C7}">
+										<Image FileName="992655218" Left="1440" Top="121" Right="1920" Bottom="1032" />
+										<Selectors>
+											<Selector>
+												<Value Value="#offcanvas-cart" />
+											</Selector>
+											<Selector>
+												<Value Value="aside[contains(., &apos;Shopping Cart&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="aside[contains(@class, &apos;offcanvas-lg&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkRemove" Key="{2F1C4138-3F7C-463C-95D0-6A26EB50C965}">
+										<Image FileName="992655218" Left="1869" Top="377" Right="1908" Bottom="416" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[@title=&apos;Remove&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@class, &apos;btn-to-danger&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode" Key="{E2F6D4EF-1A6B-4CDE-B04A-154F18DE6B4E}">
+										<Image FileName="992655218" Left="1882" Top="390" Right="1894" Bottom="404" />
+										<TypeInfo Item0="{F5BD2E1C-6CA5-426C-89BF-D0ED011466F0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[2]/i[contains(@class, &apos;fal&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;occ-cart&apos;]//a[2]/i" />
+											</Selector>
+											<Selector>
+												<Value Value="//aside//div[3]/a[2]/i" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode47900ExclTax" Key="{8BB29A0C-1A7D-4670-9ADE-EA73D734E88F}">
+										<Image FileName="-974272906" Left="1084" Top="514" Right="1293" Bottom="552" />
+										<TypeInfo Item0="{674FDB3D-25D3-418B-B73C-04CC4DFEE673}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[contains(text(), &apos;$479.00 excl tax&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@id=&apos;pd-form&apos;]//div[4]/div//span" />
+											</Selector>
+											<Selector>
+												<Value Value="//aside/div[4]//span" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
 						</Children>
 					</Child>
 					<Child Name="explorer" Key="{68E8DFB9-F868-414C-B86C-9B2E4F125A82}">
@@ -7684,6 +7964,62 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="formSearch" Key="{9C17F8A7-5F61-4FFC-B24D-7536E9511ECC}">
+										<Image FileName="-1214248754" Left="657" Top="190" Right="1187" Bottom="235" />
+										<Selectors>
+											<Selector>
+												<Value Value="//form[contains(@action, &apos;search&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(@class, &apos;instasearch-form&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[@id=&apos;header&apos;]//form" />
+											</Selector>
+											<Selector>
+												<Value Value="//form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxQ" Key="{434D6D0C-EE35-4548-ABC2-8157C53FB491}">
+										<Image FileName="-1214248754" Left="657" Top="190" Right="1187" Bottom="235" />
+										<TypeInfo Item0="{ADEA49E7-73B9-487C-860C-02900DFBC58E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@name=&apos;q&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[@id=&apos;header&apos;]//form/input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[contains(@class, &apos;instasearch-term&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[@id=&apos;header&apos;]//input" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[@id=&apos;header&apos;]//form/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonSearch" Key="{B5867BF9-38E1-4E01-A640-8C42AAD2B692}">
+										<Image FileName="-1980730401" Left="1142" Top="190" Right="1187" Bottom="235" />
+										<TypeInfo Item0="{F428A2AF-B8FF-41ED-90C8-49188CA23261}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[@title=&apos;Search&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[@id=&apos;header&apos;]//form/button[contains(@class, &apos;btn&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[@id=&apos;header&apos;]//button" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[@id=&apos;header&apos;]//form/button" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="pageContactus" Key="{CB77BEE5-853A-45F8-8622-F20EB5A2D768}">
@@ -8159,6 +8495,77 @@
 											</Selector>
 											<Selector>
 												<Value Value="//tr[4]/td[6]/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageShop2" Key="{A39E2BB8-3228-4018-822E-D6C864133DB4}">
+								<TypeInfo Item0="{ABD23111-3E36-4CDA-A7FD-E20EE06EAECE}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://bearstore-testsite.smartbear.com/search*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="sectionContent" Key="{8A9EDCDB-C368-48FF-864B-505F283A825B}">
+										<Image FileName="689484929" Left="382" Top="324" Right="1522" Bottom="1288" />
+										<Selectors>
+											<Selector>
+												<Value Value="#content" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(., &apos;Category&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(@class, &apos;container&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;content-wrapper&apos;]/section" />
+											</Selector>
+											<Selector>
+												<Value Value="//section" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkAddToCart" Key="{F60FD78D-BEEC-486B-8E10-5411CB97EB91}">
+										<Image FileName="689484929" Left="681" Top="850" Right="748" Bottom="892" />
+										<TypeInfo Item0="{F5BD2E1C-6CA5-426C-89BF-D0ED011466F0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[@aria-describedby=(//div[.=&apos;Add to cart&apos;]/@id)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;content-center&apos;]//div[2]/article/div[6]//a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="asideOffcanvasCart" Key="{CAC1927E-BC4A-49DE-9720-947FCAFA0670}">
+										<Image FileName="2057507736" Left="1440" Top="121" Right="1920" Bottom="1032" />
+										<Selectors>
+											<Selector>
+												<Value Value="#offcanvas-cart" />
+											</Selector>
+											<Selector>
+												<Value Value="aside[contains(., &apos;Shopping Cart&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="aside[contains(@class, &apos;offcanvas-lg&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkRemove" Key="{38CA2901-44A9-4A2E-93E9-B8AD8555C2BF}">
+										<Image FileName="2057507736" Left="1869" Top="377" Right="1908" Bottom="416" />
+										<TypeInfo Item0="{F5BD2E1C-6CA5-426C-89BF-D0ED011466F0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[@title=&apos;Remove&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@class, &apos;btn-to-danger&apos;)]" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -9239,6 +9646,7 @@
 					</Child>
 				</Child>
 				<Child Name="linkLogIn" Owner="{2956569D-8DD3-40CC-BB51-E720ACC14535}" />
+				<Child Name="linkWatches" Owner="{7690A65B-EBB5-4FDF-B8AA-830B00C8B735}" />
 			</Child>
 			<Child Name="pageJackets" Owner="{70C71C19-EBA6-43D6-89E8-CAEA361C9077}">
 				<Child Name="sectionContent" Owner="{CEA824DA-7DD3-4381-8394-2FD7779EB9D7}">
@@ -9518,6 +9926,34 @@
 			<Child Name="pageDragdrop2" Owner="{4E76D987-9534-4D68-A97F-82AE66C5C4D8}">
 				<Child Name="imageDrag1" Owner="{D0766E79-3F9B-4291-AC88-AD666173350C}" />
 			</Child>
+			<Child Name="pageShopSearchResultForChronogra" Owner="{3BFE63A5-61FA-4781-BBC1-4C0561D654E4}">
+				<Child Name="asideOffcanvasCart" Owner="{D13C329B-E093-409D-A69F-CF8AABB8F173}">
+					<Child Name="textnode2411000ExclTax" Owner="{84344851-12B5-49F7-AE2E-4003A87B8E7F}" />
+				</Child>
+				<Child Name="sectionContent" Owner="{10F13BAC-81E8-46B3-A559-DA4302A91247}" />
+			</Child>
+			<Child Name="pageWatches" Owner="{4C249719-D096-4A83-A578-081569E33FF0}">
+				<Child Name="sectionContent" Owner="{8E18EBDB-6A9F-4E35-9820-EA1FADFC51B3}">
+					<Child Name="linkShowDetailsForCertinaDs" Owner="{DABED3FD-770E-499B-A8F6-F337F9E78990}">
+						<Child Name="imageShowDetailsForCertinaDs" Owner="{D5A6B3AD-A585-40AF-BFA9-CD9C10E96352}" />
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="pageCertinaDsPodiumBigSize" Owner="{757074F6-54DC-4A41-BB3E-F848F3B3721C}">
+				<Child Name="sectionContent" Owner="{D14B164A-9E49-42F5-895C-649B18DEEBD1}">
+					<Child Name="articleCertinaDsPodiumBigSize" Owner="{D176522A-7821-41AF-8F0E-E8F19C173570}">
+						<Child Name="asideCertinaDsPodiumBigSize" Owner="{0C5ADCC3-7333-4168-89BC-667D4747EB45}">
+							<Child Name="linkAddToCart" Owner="{E41F56C3-B89A-4F81-9FAD-3B2F503E33C5}" />
+							<Child Name="textnode47900ExclTax" Owner="{8BB29A0C-1A7D-4670-9ADE-EA73D734E88F}" />
+						</Child>
+					</Child>
+				</Child>
+				<Child Name="asideOffcanvasCart" Owner="{E471D899-2BD5-4970-9A7E-31B19FA4C1C7}">
+					<Child Name="linkRemove" Owner="{2F1C4138-3F7C-463C-95D0-6A26EB50C965}">
+						<Child Name="textnode" Owner="{E2F6D4EF-1A6B-4CDE-B04A-154F18DE6B4E}" />
+					</Child>
+				</Child>
+			</Child>
 		</Child>
 		<Child Name="Device" Owner="{D873C8D4-08FA-4475-ADB0-A4340D1DE928}">
 			<Child Name="processSmartbearExampleOrders" Owner="{6C80CD8A-3FBA-4BF6-BF07-CCEF72BA3CF5}">
@@ -9796,6 +10232,10 @@
 							<Child Name="linkContactUs" Owner="{2B6DCE8E-884C-4E40-89F0-F4F2C959C82D}" />
 						</Child>
 					</Child>
+					<Child Name="formSearch" Owner="{9C17F8A7-5F61-4FFC-B24D-7536E9511ECC}">
+						<Child Name="textboxQ" Owner="{434D6D0C-EE35-4548-ABC2-8157C53FB491}" />
+						<Child Name="buttonSearch" Owner="{B5867BF9-38E1-4E01-A640-8C42AAD2B692}" />
+					</Child>
 				</Child>
 				<Child Name="sectionContent" Owner="{EA34C86D-AFBB-400D-82DF-C1902212859F}">
 					<Child Name="articleSoccer" Owner="{595455D7-F4E0-4C60-9C48-2CFD067BE4AC}">
@@ -9846,6 +10286,14 @@
 				<Child Name="textnode10" Owner="{308AB1EF-4906-4B69-BF8D-35A1386EDBAE}" />
 				<Child Name="button2" Owner="{A43B2C6F-D8BD-4D85-B9F7-74848D718816}" />
 				<Child Name="textnode17" Owner="{67867D42-9FFC-4E83-AEF3-FCF7AA088E26}" />
+			</Child>
+			<Child Name="pageShop2" Owner="{A39E2BB8-3228-4018-822E-D6C864133DB4}">
+				<Child Name="sectionContent" Owner="{8A9EDCDB-C368-48FF-864B-505F283A825B}">
+					<Child Name="linkAddToCart" Owner="{F60FD78D-BEEC-486B-8E10-5411CB97EB91}" />
+				</Child>
+				<Child Name="asideOffcanvasCart" Owner="{CAC1927E-BC4A-49DE-9720-947FCAFA0670}">
+					<Child Name="linkRemove" Owner="{38CA2901-44A9-4A2E-93E9-B8AD8555C2BF}" />
+				</Child>
 			</Child>
 		</Child>
 		<Child Name="cmd" Owner="{475B7EE9-393C-4249-ACBE-6765741206AE}">

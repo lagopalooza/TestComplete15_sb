@@ -4,5 +4,7 @@
 		<child name="Unit1" key="{E7F7875A-7613-4A66-A3BD-8F188CE3B88E}" path="Unit1.py" />
 		<child name="LogIn_Py" key="{D335EEB1-EA7D-48AF-9FC0-D377F0880460}" path="LogIn_Py.py" />
 		<child name="loop" key="{D2A60AA3-9978-4720-BC09-03C4B2584E58}" path="loop.py" />
+		<child name="test1_script" key="{E03E1B57-A1A0-4469-93C2-B7F5E8CF9558}" path="test1_script.py" />
+		<child name="ecom_sc" key="{337BFB49-E23F-42FA-9F6A-F13A92E56237}" path="ecom_sc.py" />
 	</children>
 </Root>
