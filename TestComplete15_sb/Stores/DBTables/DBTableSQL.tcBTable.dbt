@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root>
+	<Table Name="DBTableSQL">
+		<Source ConnectionString="Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=ContactUs;Data Source=SB-MA-2PQJJ54\SQLEXPRESS" Object="Query" DataObjectContent="SELECT&#13;&#10;&#32;&#32;dbo.ContactUs.ContactName,&#13;&#10;&#32;&#32;dbo.ContactUs.ContactEmail,&#13;&#10;&#32;&#32;dbo.ContactUs.ContactInquiry&#13;&#10;FROM&#13;&#10;&#32;&#32;dbo.ContactUs">
+			<DataExtraction Type="" />
+		</Source>
+		<Columns>
+			<Column>ContactName</Column>
+			<Column>ContactEmail</Column>
+			<Column>ContactInquiry</Column>
+		</Columns>
+		<Rows>
+			<Row>
+				<Cell Type="String">Shelley Head</Cell>
+				<Cell Type="String">campos@tortor.edu</Cell>
+				<Cell Type="String">Help</Cell>
+			</Row>
+			<Row>
+				<Cell Type="String">Rogan Anderson</Cell>
+				<Cell Type="String">lowery@aliquam.us</Cell>
+				<Cell Type="String">Shipment is missing</Cell>
+			</Row>
+			<Row>
+				<Cell Type="String">Gil Strong</Cell>
+				<Cell Type="String">snow@pulvinar.net</Cell>
+				<Cell Type="String">Thanks for the fast delivery</Cell>
+			</Row>
+			<Row>
+				<Cell Type="String">Kasper Nash</Cell>
+				<Cell Type="String">dickson@nonummy.net</Cell>
+				<Cell Type="String">Please help with my order</Cell>
+			</Row>
+			<Row>
+				<Cell Type="String">Cain Combs</Cell>
+				<Cell Type="String">sargent@lorem.gov</Cell>
+				<Cell Type="String">Great Prodcuts</Cell>
+			</Row>
+			<Row>
+				<Cell Type="String">Wing Collier</Cell>
+				<Cell Type="String">weeks@lacus.org</Cell>
+				<Cell Type="String">Love the prices</Cell>
+			</Row>
+			<Row>
+				<Cell Type="String">Diana Shaw</Cell>
+				<Cell Type="String">beck@turpis.us</Cell>
+				<Cell Type="String">Is shipping free</Cell>
+			</Row>
+			<Row>
+				<Cell Type="String">Elijah Barnett</Cell>
+				<Cell Type="String">pickett@quis.us</Cell>
+				<Cell Type="String">Where&apos;s my stuff?</Cell>
+			</Row>
+			<Row>
+				<Cell Type="String">Herman Crosby</Cell>
+				<Cell Type="String">wise@hendrerit.us</Cell>
+				<Cell Type="String">I bought it all</Cell>
+			</Row>
+			<Row>
+				<Cell Type="String">Dave Jones</Cell>
+				<Cell Type="String">dave@mail.com</Cell>
+				<Cell Type="String">Do you ship to Sydney?</Cell>
+			</Row>
+			<Row>
+				<Cell Type="String">Dan James</Cell>
+				<Cell Type="String">dave@mail.com</Cell>
+				<Cell Type="String">Do you ship to Sydney?</Cell>
+			</Row>
+		</Rows>
+	</Table>
+</Root>

@@ -5,47 +5,31 @@
 		<child name="Script" key="{7B35597B-B931-45CF-8053-27D9C7ACCF49}" type="Script" typeId="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" pluginName="Script" path="Script\Script.tcScript" />
 		<child name="KeywordTests" key="{705D7813-6D03-4D08-84CC-EF43F8EB1DAD}" type="Keyword Testing" typeId="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" pluginName="Keyword Testing" path="KeywordTests\KeywordTests.tcKDT" />
 		<child name="TestedApps" key="{4E7B7B43-E2BC-4DD9-AB2C-04F89DD0984E}" type="Tested Applications" typeId="{90D101C8-80C7-48D4-9055-2E451B9BCD75}" pluginName="" path="TestedApps\TestedApps.tcTAs" />
+		<child name="Stores" key="{8F686344-C65D-44F8-BB64-93DB1F40B33E}" type="Stores" typeId="{5238AF17-5FE2-48FF-8BCC-9803A975A4F4}" pluginName="Stores" path="Stores\Stores.tcStores" />
+		<child name="UnitTesting1" key="{2D9C7FE3-4C29-4C4F-A44A-096277623FE4}" type="Selenium or Unit Testing" typeId="{CCBF15D3-5453-4E8D-891C-1C74B57C6979}" pluginName="Unit Testing" path="UnitTesting1\UnitTesting1.tcUT" />
 	</children>
 	<config language="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}" />
 	<testItems key="{BE6CEFB8-58C6-4207-9B92-8F5838A75010}" version="14">
 		<children>
-			<testItem name="Login" key="{180BA64A-653C-4668-BFA0-F7E23EA3F107}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{E18BD929-F065-4D9A-A720-4852CEC4B6FD}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
-				<testParameters />
-				<environments activeCloud="SWT" />
-				<children />
-			</testItem>
-			<testItem name="Drag_Drop" key="{531A937C-DA37-4F09-9123-EB8C16C0E50F}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{8AEB9149-3A8A-4172-BAB2-4E5D45559F33}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
-				<testParameters />
-				<environments activeCloud="SWT" />
-				<children />
-			</testItem>
-			<testItem name="SmartStore_product" key="{77B69A16-6DD7-4DAE-B88E-A3AF36228BDA}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{51837160-A466-4799-BCB9-DCEF83C0A855}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
-				<testParameters>
-					<param0 name="Query" type="1" localVarName="" value="Glass Table" />
-					<param1 name="Price" type="1" localVarName="" value="$1,629.00 excl tax" />
-				</testParameters>
-				<environments activeCloud="SWT" />
-				<children>
-					<testItem name="Login_2" key="{BFD248F7-4788-4B1A-990F-CB4BB8662C26}" group="False" parallel="False" enabled="True" load="False" testMoniker="{D335EEB1-EA7D-48AF-9FC0-D377F0880460}Login" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
-						<testParameters />
-						<environments activeCloud="SWT" />
-						<children>
-							<testItem name="DD_Loop_contactus" key="{1AE15F3D-F769-4DFB-AF89-69986A7127EC}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{9EA8121F-A777-4319-AEE7-3D7F261D1F4F}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
-								<testParameters />
-								<environments activeCloud="SWT" />
-								<children />
-							</testItem>
-						</children>
-					</testItem>
-				</children>
-			</testItem>
-			<testItem name="Contact_Us" key="{35A119CC-C92C-4C58-A266-83B2948060B3}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{9E0ADB31-7DAF-4294-90DB-63F482E98BC7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
+			<testItem name="webtest" key="{0BC81023-508B-45AF-AC48-045D62BAEDC6}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{83570B8A-90BD-46F2-B803-29405A51844F}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
 				<testParameters />
 				<environments activeCloud="SWT">
 					<cloud name="SWT" testedURL="https://bearstore-testsite.smartbear.com/">
+						<CapabilityItem Server="https://us-west-desktop-hub.bitbar.com/wd/hub" JSON="{&quot;platform&quot;:&quot;macOS&quot;,&quot;osVersion&quot;:&quot;12&quot;,&quot;browserName&quot;:&quot;Safari&quot;,&quot;version&quot;:&quot;17&quot;,&quot;resolution&quot;:&quot;2560x1920&quot;}" Platform="Desktop" OS="macOS 12" Browser="Safari 17" Resolution="2560x1920" CustomCapabilitiesInfo="" />
 						<CapabilityItem Server="https://us-west-desktop-hub.bitbar.com/wd/hub" JSON="{&quot;platform&quot;:&quot;macOS&quot;,&quot;osVersion&quot;:&quot;13&quot;,&quot;browserName&quot;:&quot;Safari&quot;,&quot;version&quot;:&quot;18&quot;,&quot;resolution&quot;:&quot;2560x1920&quot;}" Platform="Desktop" OS="macOS 13" Browser="Safari 18" Resolution="2560x1920" CustomCapabilitiesInfo="" />
+						<CapabilityItem Server="https://us-west-mobile-hub.bitbar.com/wd/hub" JSON="{&quot;bitbar:device&quot;:&quot;Apple iPhone 13 Mini A2481 15.3 -US&quot;,&quot;deviceName&quot;:&quot;Apple iPhone 13 Mini A2481 15.3 -US&quot;,&quot;platformName&quot;:&quot;iOS&quot;,&quot;bitbar:findDevice&quot;:&quot;false&quot;,&quot;automationName&quot;:&quot;XCUITest&quot;,&quot;browserName&quot;:&quot;Safari&quot;}" Platform="Mobile" OS="Apple iPhone 13 Mini A2481 15.3 -US" Browser="Safari" Resolution="1080 x 2340" CustomCapabilitiesInfo="" />
 					</cloud>
 				</environments>
+				<children />
+			</testItem>
+			<testItem name="Login" key="{A43998B7-2D4F-443D-ACFC-7A4AD8BC5BAF}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{E18BD929-F065-4D9A-A720-4852CEC4B6FD}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
+				<testParameters />
+				<environments activeCloud="CBT" />
+				<children />
+			</testItem>
+			<testItem name="Ecom_Web" key="{7D8F4675-67A4-4015-9C23-8DD3E4BE8D50}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{CD04E922-D8EB-4AA8-8F52-4D2E6DFD9ED9}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
+				<testParameters />
+				<environments activeCloud="CBT" />
 				<children />
 			</testItem>
 		</children>
@@ -61,11 +45,24 @@
 						<ConnectionInfo FileName="..\..\..\..\..\Data Tables\SmartBank_data.xlsx" Table="Sheet2$" HasColumnNames="True" />
 					</DefValue>
 				</Variable>
+				<Variable Name="SQL" Type="DB Table" Local="False">
+					<DefValue Kind="{002E9C22-1E7F-4CEC-AFD0-5C1ACCB5BA1F}">
+						<ConnectionInfo ConnectionString="Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=ContactUs;Data Source=SB-MA-2PQJJ54\SQLEXPRESS" Query="SELECT&#13;&#10;&#32;&#32;dbo.ContactUs.ContactName&#13;&#10;FROM&#13;&#10;&#32;&#32;dbo.ContactUs" />
+					</DefValue>
+				</Variable>
+				<Variable Name="SQLVar" Type="DB Table" Local="False">
+					<DefValue Kind="{002E9C22-1E7F-4CEC-AFD0-5C1ACCB5BA1F}">
+						<ConnectionInfo ConnectionString="Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=ContactUs;Data Source=SB-MA-2PQJJ54\SQLEXPRESS" Query="SELECT&#13;&#10;&#32;&#32;dbo.ContactUs.ContactEmail&#13;&#10;FROM&#13;&#10;&#32;&#32;dbo.ContactUs" />
+					</DefValue>
+				</Variable>
+				<Variable Name="TestRunsCounter" Type="Integer" Local="True">
+					<DefValue IntValue="100" />
+				</Variable>
 			</Items>
 		</data>
 	</variables>
 	<settings key="{79F4F71A-3352-47C0-90BE-E51A96924111}">
-		<settingsVersion value="15.71" />
+		<settingsVersion value="15.74" />
 		<setting name="AgOpenApp_ExtendedSilverlightObjectTree" type="1" value="False" />
 		<setting name="ApplicationHangingProcessFilterMode" type="6" rowIndex="4" colIndex="0">
 			<columns>
@@ -92,7 +89,7 @@
 		<setting name="AzureDevOps_TeamProject" type="5" value="" />
 		<setting name="AzureDevOps_TeamProjectCollection" type="5" value="" />
 		<setting name="AzureDevOps_URL" type="5" value="" />
-		<setting name="BitBar_APIKey" type="5" value="3A02A04188AF42BD00C32B023BB1A8A686A5784F50B289493579E05559EA4575FFF92018C9933F4285BBB09619D29E32113EBEB03C183A464E02CC7C92B013B42635A4" />
+		<setting name="BitBar_APIKey" type="5" value="3A02A0419CAF82BD14861B1EE08386477BA09764D5A11E1618F467E9ADD4D573CAACC489C2B299CDF0E1AC36FB5255F25564D23302B9BD286CF54B7A52807BCBB3" />
 		<setting name="BitBar_APIURL" type="5" value="https://cloud.bitbar.com/api/" />
 		<setting name="BitBar_FindAndroidDevice" type="5" value="( Device Group As in Selected Device )" />
 		<setting name="BitBar_FindIOSDevice" type="5" value="( Device Group As in Selected Device )" />

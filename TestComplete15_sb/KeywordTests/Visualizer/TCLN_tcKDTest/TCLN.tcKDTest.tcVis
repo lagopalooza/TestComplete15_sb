@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{AE208DB5-0631-407E-BF61-24D869C7D5C2}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="2" kind="0" dateTime="45764.5879861111" objectName="Aliases.browser.pageShop_new1.linkWatches.textnodeWatches" objectLeft="763" objectTop="264" objectRight="824" objectBottom="285" clickPointX="809" clickPointY="278" imageFileName="tcvi89468750171364.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="4" kind="0" dateTime="45764.5880208333" objectName="Aliases.browser.pageWatches.sectionContent.linkShowDetailsForTissotTTouch.imageShowDetailsForTissotTTouch" objectLeft="925" objectTop="554" objectRight="1056" objectBottom="728" clickPointX="999" clickPointY="636" imageFileName="tcvi89472046171366.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

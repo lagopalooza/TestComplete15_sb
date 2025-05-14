@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{C3BE8E0F-FB1F-487B-9AE3-BCFEB91CBEFF}" version="15.0">
+	<children>
+		<child name="DBTable1" key="{0E592CFD-513F-4ACC-8131-C74595E2EA39}" path="DBTable1.tcBTable" />
+		<child name="DBTable2" key="{80A58B02-0FDB-4828-BB0B-9158C6400BB6}" path="DBTable2.tcBTable" />
+		<child name="DBTable3" key="{2223ADDD-2813-47D3-8D1E-DBB892CFFFA5}" path="DBTable3.tcBTable" />
+		<child name="DBTableSQL" key="{06EB1529-EFE0-4C1D-9F2F-7B782018E689}" path="DBTableSQL.tcBTable" />
+	</children>
+</Root>

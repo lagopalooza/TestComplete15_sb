@@ -19,3 +19,11 @@
     Delay(1000)
     #Checks whether the 'contentText' property of the Aliases.browser.pageBearstoreTestsiteSmartbearCo.FindElement("//h1[.='Welcome to our store.']") object equals 'Welcome to our store.'.
     aqObject.CheckProperty(Aliases.browser.pageBearstoreTestsiteSmartbearCo.FindElement("//h1[.='Welcome to our store.']"), "contentText", cmpEqual, "Welcome to our store.")
+
+def Test4():
+    #Simulates a user action over the area that contains the recognized text.
+    OCR.Recognize(Aliases.browser.pageConsumerSalesSalesAnalysisSh.articleScatterPlot.panel3).BlockByText("Fresh Vegetables").Click()
+    #Simulates a user action over the area that contains the recognized text.
+    #OCR.Recognize(Aliases.Orders.OrderForm.ButtonOK2).BlockByText("OK").Click()
+    #Check whether '*Fresh Vegetables*' matches the text optically recognized in the image Aliases.browser.pageConsumerSalesSalesAnalysisSh.articleScatterPlot.panel3.
+    OCR.Recognize(Aliases.browser.pageConsumerSalesSalesAnalysisSh.articleScatterPlot.panel3).CheckText("*Fresh Vegetables*")

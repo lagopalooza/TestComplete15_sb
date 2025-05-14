@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{CCBF15D3-5453-4E8D-891C-1C74B57C6979}" version="15.0">
+	<children>
+		<child name="PyUnit1" key="{C0DED0E9-AFB7-435D-9A82-5E5F6BEF7C39}" type="PyUnit" typeId="{3D5F4887-C042-45BA-ABD4-1EC4DA976BB6}" pluginName="PyUnit Runner" path="PyUnit1\PyUnit1.tcPyUnit" />
+		<child name="PyUnit2" key="{120097BB-122E-4877-954C-A22FE3EF1041}" type="PyUnit" typeId="{3D5F4887-C042-45BA-ABD4-1EC4DA976BB6}" pluginName="PyUnit Runner" path="PyUnit2\PyUnit2.tcPyUnit" />
+	</children>
+</Root>

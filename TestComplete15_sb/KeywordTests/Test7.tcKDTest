@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="15.0">
+	<TestData Description="" Key="{06993F29-90C4-42A5-B04C-A3CFEE74D34D}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+		<Data>
+			<Extenders>
+				<NodeBitmaps />
+			</Extenders>
+		</Data>
+	</TestData>
+	<Variables Version="4" Key="{379EACE5-F2BA-4FBF-8BB8-35FE28E63597}">
+		<Items>
+			<Variable Name="SQLVar" Type="DB Table" Local="False">
+				<DefValue Kind="{002E9C22-1E7F-4CEC-AFD0-5C1ACCB5BA1F}">
+					<ConnectionInfo ConnectionString="Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=ContactUs;Data Source=SB-MA-2PQJJ54\SQLEXPRESS" Query="SELECT&#13;&#10;&#32;&#32;dbo.ContactUs.ContactName&#13;&#10;FROM&#13;&#10;&#32;&#32;dbo.ContactUs" />
+				</DefValue>
+			</Variable>
+			<Variable Name="Var1" Type="String" Local="False">
+				<DefValue />
+			</Variable>
+		</Items>
+	</Variables>
+	<Parameters Key="{AEEABBB6-A40D-4C67-B7F8-D8DDBB2A75DB}" />
+</Root>

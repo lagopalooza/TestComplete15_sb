@@ -1,15 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="15.0">
 	<children>
-		<child name="Login" key="{E18BD929-F065-4D9A-A720-4852CEC4B6FD}" path="Login.tcKDTest" />
-		<child name="Contact_Us" key="{9E0ADB31-7DAF-4294-90DB-63F482E98BC7}" path="Contact_Us.tcKDTest" />
-		<child name="GC_Ecom" key="{D62115BE-C38B-45A8-8198-F957EB70C179}" path="GC_Ecom.tcKDTest" />
-		<child name="DD_Loop_contactus" key="{9EA8121F-A777-4319-AEE7-3D7F261D1F4F}" path="DD_Loop_contactus.tcKDTest" />
-		<child name="SmartBank_Checking_form" key="{34E20E3D-D0AF-499B-AACE-F87E443D1916}" path="SmartBank_Checking_form.tcKDTest" />
-		<child name="Drag_Drop" key="{8AEB9149-3A8A-4172-BAB2-4E5D45559F33}" path="Drag_Drop.tcKDTest" />
-		<child name="SmartStore_product" key="{51837160-A466-4799-BCB9-DCEF83C0A855}" path="SmartStore_product.tcKDTest" />
-		<child name="param_SmartStore" key="{B4DD8C4D-AF29-45B5-9BBE-A9C7FD3740B8}" path="param_SmartStore.tcKDTest" />
-		<child name="Test1" key="{04DF528B-7507-4B58-B452-38E086FFC881}" path="Test1.tcKDTest" />
-		<child name="Ecom" key="{745CBDB5-5332-479A-A80F-80524AB8E0CD}" path="Ecom.tcKDTest" />
+		<folder name="Web">
+			<child name="Ecom_Web" key="{CD04E922-D8EB-4AA8-8F52-4D2E6DFD9ED9}" path="Ecom_Web.tcKDTest" />
+			<child name="Login" key="{E18BD929-F065-4D9A-A720-4852CEC4B6FD}" path="Login.tcKDTest" />
+			<child name="SmartBank_Checking_form" key="{34E20E3D-D0AF-499B-AACE-F87E443D1916}" path="SmartBank_Checking_form.tcKDTest" />
+			<child name="Ecom" key="{745CBDB5-5332-479A-A80F-80524AB8E0CD}" path="Ecom.tcKDTest" />
+			<child name="Contact_Us" key="{9E0ADB31-7DAF-4294-90DB-63F482E98BC7}" path="Contact_Us.tcKDTest" />
+			<child name="Contact_us_saved" key="{5D942C90-2E73-45DE-9C81-F7A5829C0522}" path="Contact_us_saved.tcKDTest" />
+			<child name="param_SmartStore" key="{B4DD8C4D-AF29-45B5-9BBE-A9C7FD3740B8}" path="param_SmartStore.tcKDTest" />
+			<child name="Drag_Drop" key="{8AEB9149-3A8A-4172-BAB2-4E5D45559F33}" path="Drag_Drop.tcKDTest" />
+			<child name="GC_Ecom" key="{D62115BE-C38B-45A8-8198-F957EB70C179}" path="GC_Ecom.tcKDTest" />
+			<child name="DD_Loop_contactus" key="{9EA8121F-A777-4319-AEE7-3D7F261D1F4F}" path="DD_Loop_contactus.tcKDTest" />
+			<child name="SmartStore_product" key="{51837160-A466-4799-BCB9-DCEF83C0A855}" path="SmartStore_product.tcKDTest" />
+		</folder>
+		<folder name="Mobile">
+			<child name="ios_13" key="{CB79A679-7846-4588-8791-824BC61C419B}" path="ios_13.tcKDTest" />
+			<child name="Orders_mobile_app" key="{FA3A3563-0BE9-426D-A665-8A0C98DB7DF2}" path="Orders_mobile_app.tcKDTest" />
+		</folder>
+		<folder name="Validate">
+			<child name="SQL_loopl_ContactUs" key="{B1C2D97A-A1D2-44EA-9B16-5B439F3A6E1D}" path="SQL_loopl_ContactUs.tcKDTest" />
+			<child name="Set_Var_Val" key="{7A39A02D-C35C-4001-A603-AE37D0BA4EAC}" path="Set_Var_Val.tcKDTest" />
+			<child name="vali" key="{417D3026-DC5F-478C-97EF-BA1F2F6BA84D}" path="vali.tcKDTest" />
+			<child name="MySQL_Val" key="{AE377524-81C8-4936-B0A0-C76148C7E58F}" path="MySQL_Val.tcKDTest" />
+			<child name="Excel_Values" key="{02763DF9-977F-4666-9E15-E2C5F9DA316D}" path="Excel_Values.tcKDTest" />
+			<child name="MySQL_CHEKP" key="{5380F8FC-53DA-4F6C-8D53-CE9610D0A257}" path="MySQL_CHEKP.tcKDTest" />
+		</folder>
+		<folder name="OCR">
+			<child name="PDF" key="{A0B38F29-AA4D-4FF7-8C0F-27611644170B}" path="PDF.tcKDTest" />
+			<child name="Web_Audit" key="{3A197C0C-8FAA-4199-8A53-3DDC1C54573A}" path="Web_Audit.tcKDTest" />
+		</folder>
+		<child name="cmd_AS400_Mock" key="{EC2ECE9B-F16E-46BA-B956-6387E51AE25C}" path="cmd_AS400_Mock.tcKDTest" />
+		<child name="AS400_Mock" key="{769C4BDE-1CDE-4005-9591-D589CB5F981C}" path="AS400_Mock.tcKDTest" />
+		<child name="Terminal_mock" key="{5D62D813-1C3C-4EEA-BE25-B504A8B91285}" path="Terminal_mock.tcKDTest" />
+		<child name="Orders_local_android" key="{9482F9B4-EFC8-41F2-80E3-00DAE22D9F7D}" path="Orders_local_android.tcKDTest" />
+		<child name="TCLN" key="{AE208DB5-0631-407E-BF61-24D869C7D5C2}" path="TCLN.tcKDTest" />
+		<child name="intPlus1" key="{C6EFD570-F4E4-40C1-A680-150831ED8F04}" path="intPlus1.tcKDTest" />
+		<child name="webtest" key="{83570B8A-90BD-46F2-B803-29405A51844F}" path="webtest.tcKDTest" />
 	</children>
 </Root>

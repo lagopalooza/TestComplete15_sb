@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="15.0">
+	<TestData Description="" Key="{2D303E28-27C0-4E4A-AB54-3CBF26695DA7}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+		<Data>
+			<Extenders>
+				<NodeBitmaps />
+			</Extenders>
+		</Data>
+		<Children>
+			<Operation Type="{68CC7043-2A67-4E56-8BA7-A7B8B695C0C7}">
+				<Data Description="Extracts plain text from a *.pdf document.">
+					<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
+						<Parameter Name="PathToPDF" DefVarType="8" ParamType="{A6C17AFB-EA54-4E23-8160-6C3EF6C97F0F}" FileName="C:\Users\daniel.lagomarsino\OneDrive - SmartBear Software, Inc\TC_Certificate.pdf" Filter="PDF files (*.pdf)|*.pdf|All files|*.*" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{BFB3C418-1303-46B3-9B24-3624AB5EB529}">
+				<Data Description="Posts an information message to the test log." MessageType="0">
+					<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
+						<Parameter Name="MessageText" DefVarType="12" ParamType="{D44DB91E-FD74-4F67-BE3D-951A1238A9AD}" />
+						<Parameter Name="Details" DefVarType="12" VarType="8" ValueType="6" ValueValue="" />
+						<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
+							<Values IsEnum="True">
+								<Value Type="1" Value="100" Text="pmLowest" />
+								<Value Type="1" Value="200" Text="pmLower" />
+								<Value Type="1" Value="300" Text="pmNormal" />
+								<Value Type="1" Value="400" Text="pmHigher" />
+								<Value Type="1" Value="500" Text="pmHighest" />
+							</Values>
+						</Parameter>
+						<Parameter Name="Attrib" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+						<Parameter Name="Picture" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+						<Parameter Name="FolderId" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{05071558-912E-4104-9730-FD329C2BDC20}">
+				<Data Description="Check whether %n matches the text extracted from the PDF file %p1." Checkpoint="c4611_sample_explain1">
+					<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
+						<Parameter Name="FileName" DefVarType="8" VarType="8" ValueType="6" ValueValue="C:\Users\daniel.lagomarsino\OneDrive - SmartBear Software, Inc\c4611_sample_explain.pdf" />
+						<Parameter Name="AllowedDifference" DefVarType="3" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0" />
+					</Parameters>
+				</Data>
+			</Operation>
+		</Children>
+	</TestData>
+	<Parameters Key="{078B0C9F-C704-4845-BD93-4C0113561773}" />
+</Root>

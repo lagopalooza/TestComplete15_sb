@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="15.0">
+	<TestData Description="" Key="{D9AFA0ED-405C-4BC4-ABDE-453C6F0EC786}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+		<Data>
+			<Extenders>
+				<NodeBitmaps>
+					<Bitmap Name="Aliases.Device" Data="61717A6970000000010000003604000078018592C14A42511086AF61510B45130449EC0AA221088270C155E1420A145257EA42416955CB5A66BBDA554F906F606F906F506F906F506F90F74B07C7CBB97A60CECC3933FF3F67E64CA5EE04ADFFE5B8FB892B91A5042CDBB5DCB5F42F0EE6FD7037643713E597BB4CEBEBB570F587607377B0B307A5EF224630267D93AE4D2FE2A5071381CE67C2CADDF0B8FA8E688E6D79058B068B060307F56AFF365BE7925E8179CCF77E3AC9D3B7F37869845CA76B1F5EAE6EF26CACEB848BF320559DE01BE5DA333068279AEDD36FB8E046B8D39CF413D19CE2D77D86A710B62F9FF2FD5FF1A3399357DF89ADF147FBB1A2172B71A6DCF8E025AF1F3F31BCDDCF4F0F74AF259FD6F837FD9FB75F1A8B0D9619F0CB23F3EAC571060396459DB799E6A7298EFA88E5FFC4CF9C2C90AB1D8E46A2FC2C315AD37B38985D2792ED11BB42AE5BD404CF7DAEFD2D1CBC8D9CFCE37AB465CD0172147E8C" />
+					<Bitmap Name="Aliases.Device.processSmartBearQAAppsOrders" Data="61717A6970000000010000003604000078018592C14A42511086AF61510B45130449EC0AA221088270C155E1420A145257EA42416955CB5A66BBDA554F906F606F906F506F906F506F90F74B07C7CBB97A60CECC3933FF3F67E64CA5EE04ADFFE5B8FB892B91A5042CDBB5DCB5F42F0EE6FD7037643713E597BB4CEBEBB570F587607377B0B307A5EF224630267D93AE4D2FE2A5071381CE67C2CADDF0B8FA8E688E6D79058B068B060307F56AFF365BE7925E8179CCF77E3AC9D3B7F37869845CA76B1F5EAE6EF26CACEB848BF320559DE01BE5DA333068279AEDD36FB8E046B8D39CF413D19CE2D77D86A710B62F9FF2FD5FF1A3399357DF89ADF147FBB1A2172B71A6DCF8E025AF1F3F31BCDDCF4F0F74AF259FD6F837FD9FB75F1A8B0D9619F0CB23F3EAC571060396459DB799E6A7298EFA88E5FFC4CF9C2C90AB1D8E46A2FC2C315AD37B38985D2792ED11BB42AE5BD404CF7DAEFD2D1CBC8D9CFCE37AB465CD0172147E8C" />
+					<Bitmap Name="Aliases.Device.processSmartBearQAAppsOrders.table2" Data="61717A6970000000010000003604000078018592C14A42511086AF61510B45130449EC0AA221088270C155E1420A145257EA42416955CB5A66BBDA554F906F606F906F506F906F506F90F74B07C7CBB97A60CECC3933FF3F67E64CA5EE04ADFFE5B8FB892B91A5042CDBB5DCB5F42F0EE6FD7037643713E597BB4CEBEBB570F587607377B0B307A5EF224630267D93AE4D2FE2A5071381CE67C2CADDF0B8FA8E688E6D79058B068B060307F56AFF365BE7925E8179CCF77E3AC9D3B7F37869845CA76B1F5EAE6EF26CACEB848BF320559DE01BE5DA333068279AEDD36FB8E046B8D39CF413D19CE2D77D86A710B62F9FF2FD5FF1A3399357DF89ADF147FBB1A2172B71A6DCF8E025AF1F3F31BCDDCF4F0F74AF259FD6F837FD9FB75F1A8B0D9619F0CB23F3EAC571060396459DB799E6A7298EFA88E5FFC4CF9C2C90AB1D8E46A2FC2C315AD37B38985D2792ED11BB42AE5BD404CF7DAEFD2D1CBC8D9CFCE37AB465CD0172147E8C" />
+				</NodeBitmaps>
+			</Extenders>
+		</Data>
+		<Children>
+			<Operation Type="{0CAB7DC6-68EA-472F-AAFD-F1EA1701087E}">
+				<Data>
+					<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
+						<Parameter Name="HubUrl" DefVarType="5" VarType="8" ValueType="6" ValueValue="https://us-west-mobile-hub.bitbar.com/wd/hub" />
+						<Parameter Name="Capabilities" DefVarType="5" VarType="8" ValueType="6" ValueValue="{&quot;automationName&quot;:&quot;XCUITest&quot;,&quot;bitbar:app&quot;:&quot;240343875&quot;,&quot;bitbar:device&quot;:&quot;Apple iPhone 13 Mini A2481 15.3 -US&quot;,&quot;bitbar:findDevice&quot;:false,&quot;bitbar:target&quot;:&quot;ios&quot;,&quot;deviceName&quot;:&quot;Apple iPhone 13 Mini A2481 15.3 -US&quot;,&quot;platformName&quot;:&quot;IOS&quot;}" />
+						<Parameter Name="ConnectTimeoutSec" DefVarType="12" VarType="3" ValueType="1" ValueValue="600" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Simulates a touch on the view." Action="Touch">
+					<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
+						<Parameter Name="X" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+						<Parameter Name="Y" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+					</Parameters>
+					<ObjectSyntax LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}" Code="Aliases.Device.processSmartBearQAAppsOrders.table2.staticTextBobFeather" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Simulates a touch on the view." Action="Touch">
+					<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
+						<Parameter Name="X" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="398" />
+						<Parameter Name="Y" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="83" />
+					</Parameters>
+					<ObjectSyntax LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}" Code="Aliases.Device.processSmartBearQAAppsOrders.table.other2" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Simulates a touch on the view." Action="Touch">
+					<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
+						<Parameter Name="X" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+						<Parameter Name="Y" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+					</Parameters>
+					<ObjectSyntax LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}" Code="Aliases.Device.processSmartBearQAAppsOrders.navigationBarDetail.buttonOrders" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Simulates a touch on the view." Action="Touch">
+					<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
+						<Parameter Name="X" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+						<Parameter Name="Y" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+					</Parameters>
+					<ObjectSyntax LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}" Code="Aliases.Device.processSmartBearQAAppsOrders.navigationBarOrders.buttonAdd" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Simulates a touch on the view." Action="Touch">
+					<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
+						<Parameter Name="X" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+						<Parameter Name="Y" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+					</Parameters>
+					<ObjectSyntax LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}" Code="Aliases.Device.processSmartBearQAAppsOrders.table.textField" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Simulates keypresses on the view." Action="Keys">
+					<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
+						<Parameter Name="Keys" DefVarType="8" VarType="8" ValueType="6" ValueValue="Dan" />
+					</Parameters>
+					<ObjectSyntax LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}" Code="Aliases.Device.processSmartBearQAAppsOrders.table.textField" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Simulates a touch on the view." Action="Touch">
+					<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
+						<Parameter Name="X" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="222" />
+						<Parameter Name="Y" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="162" />
+					</Parameters>
+					<ObjectSyntax LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}" Code="Aliases.Device.processSmartBearQAAppsOrders.other3" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Simulates pressing the device&apos;s [%p1] button." Action="PressButton">
+					<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
+						<Parameter Name="Key" DefVarType="12" VarType="3" ValueType="1" ValueValue="67">
+							<Values IsEnum="True">
+								<Value Type="1" Value="4" Text="mbkBack" />
+								<Value Type="1" Value="121" Text="mbkBreak" />
+								<Value Type="1" Value="5" Text="mbkCall" />
+								<Value Type="1" Value="27" Text="mbkCamera" />
+								<Value Type="1" Value="67" Text="mbkDel" />
+								<Value Type="1" Value="23" Text="mbkDpadCenter" />
+								<Value Type="1" Value="20" Text="mbkDpadDown" />
+								<Value Type="1" Value="21" Text="mbkDpadLeft" />
+								<Value Type="1" Value="22" Text="mbkDpadRight" />
+								<Value Type="1" Value="19" Text="mbkDpadUp" />
+								<Value Type="1" Value="66" Text="mbkEnter" />
+								<Value Type="1" Value="111" Text="mbkEscape" />
+								<Value Type="1" Value="3" Text="mbkHome" />
+								<Value Type="1" Value="82" Text="mbkMenu" />
+								<Value Type="1" Value="26" Text="mbkPower" />
+								<Value Type="1" Value="84" Text="mbkSearch" />
+								<Value Type="1" Value="62" Text="mbkSpace" />
+								<Value Type="1" Value="171" Text="mbkWindow" />
+								<Value Type="1" Value="7" Text="mbk0" />
+								<Value Type="1" Value="8" Text="mbk1" />
+								<Value Type="1" Value="9" Text="mbk2" />
+								<Value Type="1" Value="10" Text="mbk3" />
+								<Value Type="1" Value="206" Text="mbk3DMode" />
+								<Value Type="1" Value="11" Text="mbk4" />
+								<Value Type="1" Value="12" Text="mbk5" />
+								<Value Type="1" Value="13" Text="mbk6" />
+								<Value Type="1" Value="14" Text="mbk7" />
+								<Value Type="1" Value="15" Text="mbk8" />
+								<Value Type="1" Value="16" Text="mbk9" />
+								<Value Type="1" Value="29" Text="mbkA" />
+								<Value Type="1" Value="57" Text="mbkAltLeft" />
+								<Value Type="1" Value="58" Text="mbkAltRight" />
+								<Value Type="1" Value="75" Text="mbkApostrophe" />
+								<Value Type="1" Value="187" Text="mbkAppSwitch" />
+								<Value Type="1" Value="219" Text="mbkAssist" />
+								<Value Type="1" Value="77" Text="mbkAt" />
+								<Value Type="1" Value="182" Text="mbkAvrInput" />
+								<Value Type="1" Value="181" Text="mbkAvrPower" />
+								<Value Type="1" Value="30" Text="mbkB" />
+								<Value Type="1" Value="73" Text="mbkBackSlash" />
+								<Value Type="1" Value="174" Text="mbkBookmark" />
+								<Value Type="1" Value="188" Text="mbkButton1" />
+								<Value Type="1" Value="197" Text="mbkButton10" />
+								<Value Type="1" Value="198" Text="mbkButton11" />
+								<Value Type="1" Value="199" Text="mbkButton12" />
+								<Value Type="1" Value="200" Text="mbkButton13" />
+								<Value Type="1" Value="201" Text="mbkButton14" />
+								<Value Type="1" Value="202" Text="mbkButton15" />
+								<Value Type="1" Value="203" Text="mbkButton16" />
+								<Value Type="1" Value="189" Text="mbkButton2" />
+								<Value Type="1" Value="190" Text="mbkButton3" />
+								<Value Type="1" Value="191" Text="mbkButton4" />
+								<Value Type="1" Value="192" Text="mbkButton5" />
+								<Value Type="1" Value="193" Text="mbkButton6" />
+								<Value Type="1" Value="194" Text="mbkButton7" />
+								<Value Type="1" Value="195" Text="mbkButton8" />
+								<Value Type="1" Value="196" Text="mbkButton9" />
+								<Value Type="1" Value="96" Text="mbkButtonA" />
+								<Value Type="1" Value="97" Text="mbkButtonB" />
+								<Value Type="1" Value="98" Text="mbkButtonC" />
+								<Value Type="1" Value="102" Text="mbkButtonL1" />
+								<Value Type="1" Value="103" Text="mbkButtonL2" />
+								<Value Type="1" Value="110" Text="mbkButtonMode" />
+								<Value Type="1" Value="103" Text="mbkButtonR1" />
+								<Value Type="1" Value="105" Text="mbkButtonR2" />
+								<Value Type="1" Value="109" Text="mbkButtonSelect" />
+								<Value Type="1" Value="108" Text="mbkButtonStart" />
+								<Value Type="1" Value="106" Text="mbkButtonThumbL" />
+								<Value Type="1" Value="107" Text="mbkButtonThumbR" />
+								<Value Type="1" Value="99" Text="mbkButtonX" />
+								<Value Type="1" Value="100" Text="mbkButtonY" />
+								<Value Type="1" Value="101" Text="mbkButtonZ" />
+								<Value Type="1" Value="31" Text="mbkC" />
+								<Value Type="1" Value="210" Text="mbkCalculator" />
+								<Value Type="1" Value="208" Text="mbkCalendar" />
+								<Value Type="1" Value="115" Text="mbkCapsLock" />
+								<Value Type="1" Value="175" Text="mbkCaptions" />
+								<Value Type="1" Value="167" Text="mbkChannelDown" />
+								<Value Type="1" Value="166" Text="mbkChannelUp" />
+								<Value Type="1" Value="28" Text="mbkClear" />
+								<Value Type="1" Value="55" Text="mbkComma" />
+								<Value Type="1" Value="207" Text="mbkContacts" />
+								<Value Type="1" Value="113" Text="mbkCtrlLeft" />
+								<Value Type="1" Value="114" Text="mbkCtrlRight" />
+								<Value Type="1" Value="32" Text="mbkD" />
+								<Value Type="1" Value="173" Text="mbkDVR" />
+								<Value Type="1" Value="33" Text="mbkE" />
+								<Value Type="1" Value="212" Text="mbkEISU" />
+								<Value Type="1" Value="6" Text="mbkEndCall" />
+								<Value Type="1" Value="65" Text="mbkEnvelope" />
+								<Value Type="1" Value="70" Text="mbkEquals" />
+								<Value Type="1" Value="64" Text="mbkExplorer" />
+								<Value Type="1" Value="34" Text="mbkF" />
+								<Value Type="1" Value="131" Text="mbkF1" />
+								<Value Type="1" Value="140" Text="mbkF10" />
+								<Value Type="1" Value="141" Text="mbkF11" />
+								<Value Type="1" Value="142" Text="mbkF12" />
+								<Value Type="1" Value="132" Text="mbkF2" />
+								<Value Type="1" Value="133" Text="mbkF3" />
+								<Value Type="1" Value="134" Text="mbkF4" />
+								<Value Type="1" Value="135" Text="mbkF5" />
+								<Value Type="1" Value="136" Text="mbkF6" />
+								<Value Type="1" Value="137" Text="mbkF7" />
+								<Value Type="1" Value="138" Text="mbkF8" />
+								<Value Type="1" Value="139" Text="mbkF9" />
+								<Value Type="1" Value="80" Text="mbkFocus" />
+								<Value Type="1" Value="125" Text="mbkForward" />
+								<Value Type="1" Value="112" Text="mbkForwardDel" />
+								<Value Type="1" Value="119" Text="mbkFunction" />
+								<Value Type="1" Value="35" Text="mbkG" />
+								<Value Type="1" Value="68" Text="mbkGrave" />
+								<Value Type="1" Value="172" Text="mbkGuide" />
+								<Value Type="1" Value="36" Text="mbkH" />
+								<Value Type="1" Value="79" Text="mbkHeadsetHook" />
+								<Value Type="1" Value="214" Text="mbkHenkan" />
+								<Value Type="1" Value="37" Text="mbkI" />
+								<Value Type="1" Value="165" Text="mbkInfo" />
+								<Value Type="1" Value="124" Text="mbkInsert" />
+								<Value Type="1" Value="38" Text="mbkJ" />
+								<Value Type="1" Value="39" Text="mbkK" />
+								<Value Type="1" Value="218" Text="mbkKana" />
+								<Value Type="1" Value="215" Text="mbkKatakanaHiragana" />
+								<Value Type="1" Value="40" Text="mbkL" />
+								<Value Type="1" Value="204" Text="mbkLanguageSwitch" />
+								<Value Type="1" Value="71" Text="mbkLeftBracket" />
+								<Value Type="1" Value="41" Text="mbkM" />
+								<Value Type="1" Value="205" Text="mbkMannerMode" />
+								<Value Type="1" Value="128" Text="mbkMediaClose" />
+								<Value Type="1" Value="129" Text="mbkMediaEject" />
+								<Value Type="1" Value="90" Text="mbkMediaFastForward" />
+								<Value Type="1" Value="87" Text="mbkMediaNext" />
+								<Value Type="1" Value="127" Text="mbkMediaPause" />
+								<Value Type="1" Value="126" Text="mbkMediaPlay" />
+								<Value Type="1" Value="85" Text="mbkMediaPlayPause" />
+								<Value Type="1" Value="88" Text="mbkMediaPrevious" />
+								<Value Type="1" Value="130" Text="mbkMediaRecord" />
+								<Value Type="1" Value="89" Text="mbkMediaRewind" />
+								<Value Type="1" Value="86" Text="mbkMediaStop" />
+								<Value Type="1" Value="117" Text="mbkMetaLeft" />
+								<Value Type="1" Value="118" Text="mbkMetaRight" />
+								<Value Type="1" Value="69" Text="mbkMinus" />
+								<Value Type="1" Value="123" Text="mbkMoveEnd" />
+								<Value Type="1" Value="122" Text="mbkMoveHome" />
+								<Value Type="1" Value="213" Text="mbkMuhenkan" />
+								<Value Type="1" Value="209" Text="mbkMusic" />
+								<Value Type="1" Value="91" Text="mbkMute" />
+								<Value Type="1" Value="42" Text="mbkN" />
+								<Value Type="1" Value="83" Text="mbkNotification" />
+								<Value Type="1" Value="78" Text="mbkNum" />
+								<Value Type="1" Value="144" Text="mbkNumPad0" />
+								<Value Type="1" Value="145" Text="mbkNumPad1" />
+								<Value Type="1" Value="146" Text="mbkNumPad2" />
+								<Value Type="1" Value="147" Text="mbkNumPad3" />
+								<Value Type="1" Value="148" Text="mbkNumPad4" />
+								<Value Type="1" Value="149" Text="mbkNumPad5" />
+								<Value Type="1" Value="150" Text="mbkNumPad6" />
+								<Value Type="1" Value="151" Text="mbkNumPad7" />
+								<Value Type="1" Value="152" Text="mbkNumPad8" />
+								<Value Type="1" Value="153" Text="mbkNumPad9" />
+								<Value Type="1" Value="157" Text="mbkNumPadAdd" />
+								<Value Type="1" Value="159" Text="mbkNumPadComma" />
+								<Value Type="1" Value="154" Text="mbkNumPadDivide" />
+								<Value Type="1" Value="158" Text="mbkNumPadDot" />
+								<Value Type="1" Value="160" Text="mbkNumPadEnter" />
+								<Value Type="1" Value="161" Text="mbkNumPadEquals" />
+								<Value Type="1" Value="162" Text="mbkNumPadLeftParen" />
+								<Value Type="1" Value="155" Text="mbkNumPadMultiply" />
+								<Value Type="1" Value="163" Text="mbkNumPadRightParen" />
+								<Value Type="1" Value="156" Text="mbkNumPadSubtract" />
+								<Value Type="1" Value="143" Text="mbkNumLock" />
+								<Value Type="1" Value="43" Text="mbkO" />
+								<Value Type="1" Value="44" Text="mbkP" />
+								<Value Type="1" Value="93" Text="mbkPageDown" />
+								<Value Type="1" Value="92" Text="mbkPageUp" />
+								<Value Type="1" Value="56" Text="mbkPeriod" />
+								<Value Type="1" Value="94" Text="mbkPictureSymbols" />
+								<Value Type="1" Value="81" Text="mbkPlus" />
+								<Value Type="1" Value="18" Text="mbkPound" />
+								<Value Type="1" Value="186" Text="mbkProgBlue" />
+								<Value Type="1" Value="184" Text="mbkProgGreen" />
+								<Value Type="1" Value="183" Text="mbkProgRed" />
+								<Value Type="1" Value="185" Text="mbkProgYellow" />
+								<Value Type="1" Value="45" Text="mbkQ" />
+								<Value Type="1" Value="46" Text="mbkR" />
+								<Value Type="1" Value="72" Text="mbkRightBracket" />
+								<Value Type="1" Value="217" Text="mbkRo" />
+								<Value Type="1" Value="47" Text="mbkS" />
+								<Value Type="1" Value="116" Text="mbkScrollLock" />
+								<Value Type="1" Value="74" Text="mbkSemicolon" />
+								<Value Type="1" Value="176" Text="mbkSettings" />
+								<Value Type="1" Value="59" Text="mbkShiftLeft" />
+								<Value Type="1" Value="60" Text="mbkShiftRight" />
+								<Value Type="1" Value="76" Text="mbkSlash" />
+								<Value Type="1" Value="1" Text="mbkSoftLeft" />
+								<Value Type="1" Value="2" Text="mbkSoftRight" />
+								<Value Type="1" Value="17" Text="mbkStar" />
+								<Value Type="1" Value="180" Text="mbkStbInput" />
+								<Value Type="1" Value="179" Text="mbkStbPower" />
+								<Value Type="1" Value="95" Text="mbkSwitchCharset" />
+								<Value Type="1" Value="63" Text="mbkSymbol" />
+								<Value Type="1" Value="120" Text="mbkSystemRequest" />
+								<Value Type="1" Value="48" Text="mbkT" />
+								<Value Type="1" Value="61" Text="mbkTab" />
+								<Value Type="1" Value="170" Text="mbkTV" />
+								<Value Type="1" Value="178" Text="mbkTVInput" />
+								<Value Type="1" Value="177" Text="mbkTVPower" />
+								<Value Type="1" Value="49" Text="mbkU" />
+								<Value Type="1" Value="0" Text="mbkUnknown" />
+								<Value Type="1" Value="50" Text="mbkV" />
+								<Value Type="1" Value="25" Text="mbkVolumeDown" />
+								<Value Type="1" Value="164" Text="mbkVolumeMute" />
+								<Value Type="1" Value="24" Text="mbkVolumeUp" />
+								<Value Type="1" Value="51" Text="mbkW" />
+								<Value Type="1" Value="52" Text="mbkX" />
+								<Value Type="1" Value="53" Text="mbkY" />
+								<Value Type="1" Value="216" Text="mbkYen" />
+								<Value Type="1" Value="54" Text="mbkZ" />
+								<Value Type="1" Value="211" Text="mbkZenkakuHankaku" />
+								<Value Type="1" Value="168" Text="mbkZoomIn" />
+								<Value Type="1" Value="169" Text="mbkZoomOut" />
+								<Value Type="1" Value="259" Text="mbkHelp" />
+							</Values>
+						</Parameter>
+						<Parameter Name="PressType" DefVarType="12" DefValueType="1" DefValueValue="4" VarType="3" ValueType="1" ValueValue="4">
+							<Values IsEnum="True">
+								<Value Type="1" Value="1" Text="aptDown" />
+								<Value Type="1" Value="2" Text="aptUp" />
+								<Value Type="1" Value="4" Text="aptDownUp" />
+							</Values>
+						</Parameter>
+					</Parameters>
+					<ObjectSyntax LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}" Code="Aliases.Device" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Simulates a touch on the view." Action="Touch" InvokeKind="-1" Initialized="True">
+					<ObjectSyntax LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}" Code="Aliases.Device.processSmartBearQAAppsOrders.table.staticTextCustomerInfo" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Simulates a swipe gesture over the device screen." Action="Swipe" InvokeKind="-1" Initialized="True">
+					<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
+						<Parameter Name="Param1" DefVarType="0" VarType="3" ValueType="1" ValueValue="566" />
+						<Parameter Name="Param2" DefVarType="0" VarType="3" ValueType="1" ValueValue="1340" />
+						<Parameter Name="Param3" DefVarType="0" VarType="3" ValueType="1" ValueValue="553" />
+						<Parameter Name="Param4" DefVarType="0" VarType="3" ValueType="1" ValueValue="670" />
+						<Parameter Name="Param5" DefVarType="0" VarType="3" ValueType="1" ValueValue="10" />
+						<Parameter Name="Param6" DefVarType="0" VarType="3" ValueType="1" ValueValue="100" />
+					</Parameters>
+					<ObjectSyntax LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}" Code="Aliases.Device" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Simulates a touch on the view." Action="Touch" InvokeKind="-1" Initialized="True">
+					<ObjectSyntax LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}" Code="Aliases.Device.processSmartBearQAAppsOrders.table.textField3" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Simulates keypresses on the view." Action="Keys" InvokeKind="-1" Initialized="True">
+					<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
+						<Parameter Name="Param1" DefVarType="0" VarType="8" ValueType="6" ValueValue="12 elm st" />
+					</Parameters>
+					<ObjectSyntax LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}" Code="Aliases.Device.processSmartBearQAAppsOrders.table.textField3" />
+				</Data>
+			</Operation>
+			<Operation Type="{2F0A05A2-4ECD-47CE-A12B-9843A308F2DC}">
+				<Data Description="Checks whether the %p2 property of the %p1 object %p3 %p4.">
+					<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
+						<Parameter Name="Object" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.Device.processSmartBearQAAppsOrders.table.textField" />
+						<Parameter Name="Property" DefVarType="8" VarType="8" ValueType="6" ValueValue="Text" />
+						<Parameter Name="Condition" DefVarType="3" VarType="3" ValueType="1" ValueValue="0" />
+						<Parameter Name="Value" DefVarType="12" VarType="8" ValueType="6" ValueValue="Dan" />
+						<Parameter Name="CaseSensitive" DefVarType="11" DefValueType="7" DefValueValue="True" VarType="11" ValueType="7" ValueValue="True" />
+					</Parameters>
+				</Data>
+			</Operation>
+		</Children>
+	</TestData>
+	<Parameters Key="{30D25810-85D7-4CA0-A47F-B1E4F5CAC30E}" />
+</Root>
